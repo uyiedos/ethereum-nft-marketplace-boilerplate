@@ -6,7 +6,7 @@ function MoralisDappProvider({ children }) {
   const { web3, Moralis, user } = useMoralis();
   const [walletAddress, setWalletAddress] = useState();
   const [chainId, setChainId] = useState();       
-  const [contractABI, setContractABI] = useState('{"noContractDeployed": true}'); "[
+  const [contractABI, setContractABI] = useState('{"noContractDeployed": true}'); '[
 	{
 		"inputs": [
 			{
@@ -184,7 +184,7 @@ function MoralisDappProvider({ children }) {
 		"stateMutability": "view",
 		"type": "function"
 	}
-]"
+]'
   const [marketAddress, setMarketAddress] = useState(); "0xD6adCDee5948C741b1eD9C1485F67fe60C89d35a"
 
 
